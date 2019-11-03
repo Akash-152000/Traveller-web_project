@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Chilanka', cursive;
+    
+}
+.headi{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 15px #000000;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.parallax {
+    /* The image used */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url("img-trek/t1.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container1{
+    padding-top: 183px;
+}
+.box4{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600;
+    padding: 70px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: 2s;
+    cursor: pointer;
+
+}
+.box4:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    color: #E98074;
+    background-color: aqua;
+}
+.box4 .imgbi{
+    width: 150px;
+    flex: 0 0 150px;
+    
+}
+
+.box4 .mid{
+    padding-left:20%; 
+}
+.box4 .mid h1{
+    margin: 0;
+    padding-left: 0;
+    color: blueviolet;
+    font-size: 22px;
+}
+.box4 .mid p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+.box5{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;    
+    transform: translate(-50%,-50%);
+    width: 600;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: 2s;
+}
+.box5:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    color: #001f3f;
+    background-color: #2ECC40;
+}
+.box5 .imgbj{
+    width: 150px;
+    flex: 0 0 150px;
+    
+}
+
+.box5 .o{
+    padding-left:20%; 
+}
+.box5 .o h1{
+    margin: 0;
+    padding-left: 0;
+    color: blueviolet;
+    font-size: 22px;
+}
+.box5 .o p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+.box6{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    width: 600;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: 2s;
+}
+.box6:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    background-color: #FFDC00;
+    color: black;
+}
+.box6 .imgbk{
+    width: 150px;
+    flex: 0 0 150px;
+    
+}
+
+.box6 .p{
+    padding-left:20%; 
+}
+.box6 .p h1{
+    margin: 0;
+    padding-left: 0;
+    color: blueviolet;
+    font-size: 22px;
+}
+.box6 .p p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+.box7{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    width: 600;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: 2s;
+}
+.box7:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    background-color: #B10DC9;
+    color: #000000;
+}
+.box7 .imgbl{
+    width: 150px;
+    flex: 0 0 150px;
+    
+}
+
+.box7 .q{
+    padding-left:20%; 
+}
+.box7 .q h1{
+    margin: 0;
+    padding-left: 0;
+    color: brown;
+    font-size: 22px;
+}
+.box7 .q p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+.footer {
+        position:relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#ddd;
+        color: blue;
+        text-align: center;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+@media only screen and (max-width:998px){
+    h1{font-size: 200%;}
+    p{font-size: 200%;}
+    }
+@media only screen and (max-width:768px){
+    h1{font-size: 200%;}
+    p{font-size: 200%;}
+    }
+@media only screen and (max-width:480px){
+    h1{font-size:200%; }
+    p{font-size: 200%;}
+    }
+#footer-area{
+    background-color: rgba(0, 0, 0, 0.1);
+            
+            
+    }                     
