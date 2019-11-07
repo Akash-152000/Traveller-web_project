@@ -21,7 +21,7 @@ Complete responsive website based on tourism(Guide).
 
 
 
-## CONTQACT PAGE
+## CONTACT PAGE
 
 ![](img/IMG-20191107-WA0023.jpg)
 
